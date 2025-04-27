@@ -41,6 +41,62 @@ body {
   width: 100%;
 }
 
+@media (min-width: 993px) and (max-width: 1400px){
+  .contenedorTitulo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.5rem;
+  }
+
+  .titulo {
+    font-size: 2.3vh;
+    text-align: center;
+  }
+
+  .subTitulo {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .contenedorFormulario {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5vh;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 45%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .contenedorTitulo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.5rem;
+  }
+
+  .titulo {
+    font-size: 2.3vh;
+    text-align: center;
+  }
+
+  .subTitulo {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .contenedorFormulario {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5vh;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 60%;
+  }
+}
+
 @media (max-width: 576px) {
   .contenedorTitulo {
     color: white;
@@ -68,3 +124,4 @@ body {
     width: auto;
   }
 }
+
